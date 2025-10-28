@@ -14,7 +14,7 @@ An interactive dashboard for visualizing BMW sales data from 2010 to 2024, built
 
 ## 🚀 Live Demo
 
-[View Live Dashboard](https://your-app-url.streamlit.app) _(after deployment)_
+[View Live Dashboard](https://your-app-url.streamlit.app) 
 
 ## 📋 Prerequisites
 
@@ -46,51 +46,6 @@ streamlit run app.py
 
 5. Open your browser to `http://localhost:8501`
 
-## ☁️ Deployment on Streamlit Community Cloud
-
-### Step 1: Prepare Your Repository
-
-1. Make sure you have all required files:
-   - `app.py` - Main application
-   - `requirements.txt` - Dependencies
-   - `BMW sales data (2010-2024) (1).csv` - Your dataset
-   - `README.md` - This file
-   - `.gitignore` - Git ignore file
-
-### Step 2: Push to GitHub
-
-```bash
-# Initialize git (if not already done)
-git init
-
-# Add all files
-git add .
-
-# Commit changes
-git commit -m "Initial commit: BMW Sales Dashboard"
-
-# Create main branch
-git branch -M main
-
-# Add your GitHub repository
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-
-# Push to GitHub
-git push -u origin main
-```
-
-### Step 3: Deploy on Streamlit
-
-1. Go to [share.streamlit.io](https://share.streamlit.io)
-2. Sign in with your GitHub account
-3. Click **"New app"**
-4. Fill in the deployment form:
-   - **Repository**: Select your repository
-   - **Branch**: `main`
-   - **Main file path**: `app.py`
-5. Click **"Deploy!"**
-
-Your app will be live at: `https://share.streamlit.io/YOUR_USERNAME/YOUR_REPO_NAME/main/app.py`
 
 ## 📊 Dataset
 
@@ -144,9 +99,6 @@ Data_Visualization/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🐛 Troubleshooting
 
